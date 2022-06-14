@@ -186,18 +186,14 @@ header {
 /* Section Benefits */
 .section-benefits {
   display: flex;
+  justify-content: space-between;
   margin-top: 94px;
   margin-bottom: 94px;
   padding-left: 0;
   outline: 1px solid tomato;
-  background-color: tomato;
 }
 .benefits-item {
   outline: 1px solid tomato;
-  margin-right: 30px;
-}
-.benefits-item:last-child {
-  margin-right: 0;
 }
 
 .benefits,
@@ -217,15 +213,10 @@ header {
 /* Section WEDO */
 .section-wedo {
   display: flex;
+  justify-content: space-between;
   margin-top: 0;
   margin-bottom: 94px;
   padding-left: 0;
-}
-.wedo-item {
-  margin-right: 30px;
-}
-.wedo-item:last-child {
-  margin-right: 0;
 }
 
 .img-wedo {
@@ -234,19 +225,15 @@ header {
 /* Our team */
 .section-ourteam {
   display: flex;
+  justify-content: space-between;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  padding-right: 0;
 }
 .team-item {
-  margin-right: 30px;
-  margin-bottom: 94px;
   outline: 1px solid tomato;
 }
-.team-item:last-child {
-  margin-right: 0;
-}
+
 .our-team {
   background-color: #f5f4fa;
 }
