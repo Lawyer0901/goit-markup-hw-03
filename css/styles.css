@@ -305,10 +305,23 @@ footer {
 
 /* CSS Portfolio.html */
 
+/* MAIN-LIST */
+.main-list {
+  display: flex;
+  justify-content: center;
+}
+.list-item {
+  margin-right: 8px;
+}
+.list-item:last-child {
+  margin-right: 0;
+}
 .button-act:hover,
 .button-act:focus {
   background-color: var(--button-bg-color);
   color: var(--button-active-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-act,
 .button-nonact {
@@ -320,9 +333,30 @@ footer {
   background-color: #f5f4fa;
   cursor: pointer;
   color: #212121;
+  border-radius: 4px;
+  border: 0;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 94px;
+  margin-top: 50px;
 }
 
+.content-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.content-item:nth-child(3) {
+  margin-right: 0;
+}
+.content-item:nth-child(n + 7) {
+  margin-bottom: 0;
+}
 .title-portfolio {
+  margin-top: 20px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -333,4 +367,6 @@ footer {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
