@@ -24,7 +24,6 @@ ul {
 
 /* HEADER */
 header {
-  outline: 1px solid tomato;
   border-bottom: 100% solid #ececec;
 }
 .container {
@@ -47,7 +46,6 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  outline: 1px solid tomato;
 }
 .navigation-main:first-child {
   margin-left: 40px;
@@ -114,7 +112,6 @@ header {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  outline: 1px solid tomato;
 }
 .auth-link:hover,
 .auth-link:focus {
@@ -190,10 +187,6 @@ header {
   margin-top: 94px;
   margin-bottom: 94px;
   padding-left: 0;
-  outline: 1px solid tomato;
-}
-.benefits-item {
-  outline: 1px solid tomato;
 }
 
 .benefits,
@@ -207,7 +200,6 @@ header {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  outline: 1px solid tomato;
 }
 
 /* Section WEDO */
@@ -229,9 +221,6 @@ header {
   margin-top: 0;
   margin-bottom: 0px;
   padding-left: 0;
-}
-.team-item {
-  outline: 1px solid tomato;
 }
 
 .our-team {
@@ -347,7 +336,6 @@ footer {
 .content-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  outline: 1px solid tomato;
 }
 .content-item:nth-child(3) {
   margin-right: 0;
