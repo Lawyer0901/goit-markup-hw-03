@@ -34,7 +34,9 @@ ul {
 }
 
 /* HEADER */
-
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -283,16 +285,16 @@ ul {
 /* CSS Portfolio.html */
 
 /* MAIN-LIST */
+
 .main-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
-.list-item {
+.list-item:not(:last-child) {
   margin-right: 8px;
 }
-.list-item:last-child {
-  margin-right: 0;
-}
+
 .button-act:hover,
 .button-act:focus {
   background-color: var(--button-bg-color);
@@ -302,6 +304,7 @@ ul {
 }
 .button-act,
 .button-nonact {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -316,23 +319,19 @@ ul {
 .main-content {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 94px;
-  margin-top: 50px;
+  margin: -15px;
 }
 
 .content-item {
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin: 15px;
+  outline: 1px solid tomato;
 }
-.content-item:nth-child(3) {
-  margin-right: 0;
-}
-.content-item:nth-child(n + 7) {
-  margin-bottom: 0;
+
+.title-text {
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .title-portfolio {
-  margin-top: 20px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -344,6 +343,4 @@ ul {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-  margin-top: 0;
-  margin-bottom: 20px;
 }
