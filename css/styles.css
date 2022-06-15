@@ -321,7 +321,9 @@ ul {
   flex-wrap: wrap;
   margin: -15px;
 }
-
+.img-portfolio {
+  display: block;
+}
 .content-item {
   margin: 15px;
 }
