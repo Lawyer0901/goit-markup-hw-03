@@ -347,6 +347,7 @@ footer {
 .content-item {
   margin-right: 30px;
   margin-bottom: 30px;
+  outline: 1px solid tomato;
 }
 .content-item:nth-child(3) {
   margin-right: 0;
